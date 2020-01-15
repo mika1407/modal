@@ -9,17 +9,33 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Modal</title>
   </head>
 
   <body>
     <button id="modalBtn" class="button">Click Here</button>
+    <img class="picture" src="./img/woman.jpg" alt="pic of woman" />
 
     <div id="simpleModal" class="modal">
       <div class="modal-content">
-        <span class="closeBtn">&times;</span>
-        <p>Hello there ... I am a modal</p>
+        <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+          <p>Hello there ... I am a modal</p>
+          <p>
+            A modal is a dialog box/popup window that is displayed on top of the
+            current page. <br /><br />Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Pariatur aliquam laboriosam architecto, et illum
+            corrupti est rerum, error, beatae nulla autem provident maiores?
+            Nulla dignissimos vitae dolorem voluptatem fuga. Laborum!
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div>
       </div>
     </div>
     <script src="./app.js"></script>
